@@ -4,8 +4,8 @@ import { Text, View } from 'react-native';
 function PersonalInformation(props) {
     return (
         <View>
-            <Text>Alin Gheorghe</Text>
-            <Text>24, Bucharest</Text>
+            <Text>John Dou</Text>
+            <Text>26, Bandung</Text>
         </View>
     );
 }

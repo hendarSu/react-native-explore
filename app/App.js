@@ -1,5 +1,5 @@
 import React from 'react';
-import { StatusBar, View, TextInput, StyleSheet, Button } from 'react-native';
+import { StatusBar, View, StyleSheet } from 'react-native';
 import { PersonalInformation, Bio } from './components';
 
 export default function App() {
@@ -8,8 +8,6 @@ export default function App() {
       <PersonalInformation />
       <Bio />
       <StatusBar style='auto' />
-      <TextInput placeholder='email' />
-      <Button title='Press me' />
     </View>
   );
 }
